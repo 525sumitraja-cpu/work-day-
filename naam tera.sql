@@ -34,8 +34,7 @@ INSERT INTO Customers_Master VALUES
 SELECT * FROM Sales_Transactions;
 SELECT * FROM Customers_Master;
 
--- Question 1 : Define Data Quality in the context of ETL pipelines. Why is it more than just data cleaning?
- 
+-- Question 1 : Define Data Quality in the context of ETL pipelines. Why is it more than just data cleaning? 
 SELECT *
 FROM Sales_Transactions
 WHERE Customer_ID IS NULL
